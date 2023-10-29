@@ -205,6 +205,8 @@ header ul, header ol, footer ul, footer ol, aside ul, aside ol, nav ul, nav ol {
     padding: 0;
 }
 
+
+
 a {
     color: var(--accent-color);
     text-decoration: underline;
@@ -326,6 +328,24 @@ table tfoot {
         background-color: rgba(0, 0, 0, 0.3);
     }
 }
+
+.paginas-web{
+    background-image: linear-gradient(to left, #8934f4, #6685e4, #ec28c2, #8934f4, #6685e4);
+    background-clip: text;
+    color: transparent;
+    animation: color 3s linear infinite;
+      background-size: 500%;  
+}
+
+@keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+  
+    to {
+        background-position: 100% 0;
+    }
+  }
 
 /* 1.4 Typography */
 h1, h2, h3, h4, h5, h6 {
@@ -1920,7 +1940,7 @@ textarea {
 .intro-content {
     --margin-left: 0;
     --margin-right: 0;
-    --max-width: 25rem;
+    --max-width: 27rem;
     width: 100%;
     max-width: var(--max-width);
     margin: 0 var(--margin-right) 0 var(--margin-left);
