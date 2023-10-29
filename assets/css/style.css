@@ -508,6 +508,12 @@ blockquote footer {
 }
 
 @media only screen and (max-width: 767.98px), only screen and (min-width: 567px) and (max-width: 900px) and (orientation: landscape) {
+
+    .paginas-web{
+        background-image: none;
+        background-clip: none;
+        color: var(--background-secondary-color);
+    }
     h1 {
         font-size: 2rem;
     }
@@ -1758,6 +1764,7 @@ textarea {
 }
 
 @media (max-width: 991.98px) {
+    
     .tabs-vertical .tabs-nav {
         min-width: 225px;
         width: 225px;
@@ -2725,6 +2732,8 @@ textarea {
 }
 
 @media (min-width: 768px) {
+
+    */
     .map {
         display: flex;
         align-items: center;
