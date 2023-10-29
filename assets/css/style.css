@@ -3121,7 +3121,7 @@ body.mmm-open .mmm {
 /* 6.2 Section */
 .section {
     position: relative;
-    padding-top: 60px;
+    padding: 4.5rem 0;
     background-color: var(--background-color);
     color: var(--text-primary);
 }
