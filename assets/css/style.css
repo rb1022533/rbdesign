@@ -148,6 +148,8 @@ h1 {
 
 }
 
+
+
 body {
     font-size: 1rem;
     width: 100%;
@@ -337,9 +339,23 @@ table tfoot {
       background-size: 500%;  
 }
 
+.animate:focus{
+    animation: animate__backInLeft;
+    animation-duration: 2S;
+
+}
+
+.submit:focus{
+    animation: bounceOutRight;
+    animation-duration: 1s;
+
+}
+
+
 @keyframes color {
     from {
         background-position: 0% 50%;
+
     }
   
     to {
