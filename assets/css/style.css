@@ -345,10 +345,20 @@ table tfoot {
 
 }
 
-.submit:focus{
+/* .submit:focus{
     animation: bounceOutRight;
     animation-duration: 1s;
 
+} */
+
+/* .submit:hover {
+    color: var(--background-color);
+    fill: var(--background-color);
+} */
+
+.submit:hover .el-ripple-circle {
+    width: calc(var(--ripple-width) * 2.5);
+    padding-top: calc(var(--ripple-width) * 2.5);
 }
 
 
